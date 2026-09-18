@@ -1,0 +1,542 @@
+[
+  {
+    "alert_id": "ALT-027",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "payments-api",
+    "message": "HTTP 429 burst",
+    "signal": "transient traffic spike",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-008",
+    "incident_id": "INC-MEM-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "checkout-api",
+    "message": "Container RSS rising",
+    "signal": "rss=7.8GB",
+    "severity": "HIGH"
+  },
+  {
+    "alert_id": "ALT-044",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "worker-queue",
+    "message": "Queue depth increase",
+    "signal": "temporary backlog",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-012",
+    "incident_id": "INC-NET-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "edge-gateway",
+    "message": "Upstream timeout",
+    "signal": "timeout=71%",
+    "severity": "CRITICAL"
+  },
+  {
+    "alert_id": "ALT-019",
+    "incident_id": "INC-AMB-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "edge-gateway",
+    "message": "Upstream retry burst",
+    "signal": "retries=28",
+    "severity": "HIGH"
+  },
+  {
+    "alert_id": "ALT-022",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "orders-ui",
+    "message": "Slow page render",
+    "signal": "client-side latency",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-007",
+    "incident_id": "INC-MEM-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "checkout-api",
+    "message": "GC pause increase",
+    "signal": "gc.pause=840ms",
+    "severity": "HIGH"
+  },
+  {
+    "alert_id": "ALT-023",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "search-api",
+    "message": "Cache miss increase",
+    "signal": "cache churn",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-043",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "auth-service",
+    "message": "Login retry burst",
+    "signal": "credential retry noise",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-034",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "auth-service",
+    "message": "Login retry burst",
+    "signal": "credential retry noise",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-011",
+    "incident_id": "INC-NET-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "edge-gateway",
+    "message": "Gateway packet loss",
+    "signal": "loss=38%",
+    "severity": "CRITICAL"
+  },
+  {
+    "alert_id": "ALT-001",
+    "incident_id": "INC-DB-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "orders-db",
+    "message": "DB connection timeout",
+    "signal": "db.pool.active=98%",
+    "severity": "CRITICAL"
+  },
+  {
+    "alert_id": "ALT-029",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "worker-queue",
+    "message": "Queue depth increase",
+    "signal": "temporary backlog",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-033",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "payments-api",
+    "message": "HTTP 429 burst",
+    "signal": "transient traffic spike",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-040",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "worker-queue",
+    "message": "Queue depth increase",
+    "signal": "temporary backlog",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-050",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "payments-api",
+    "message": "HTTP 429 burst",
+    "signal": "transient traffic spike",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-054",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "search-api",
+    "message": "Cache miss increase",
+    "signal": "cache churn",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-013",
+    "incident_id": "INC-NET-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "edge-gateway",
+    "message": "Route flap detected",
+    "signal": "flaps=14",
+    "severity": "HIGH"
+  },
+  {
+    "alert_id": "ALT-051",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "orders-ui",
+    "message": "Slow page render",
+    "signal": "client-side latency",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-020",
+    "incident_id": "INC-AMB-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "edge-gateway",
+    "message": "Gateway health warning",
+    "signal": "health=warning",
+    "severity": "HIGH"
+  },
+  {
+    "alert_id": "ALT-048",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "search-api",
+    "message": "Cache miss increase",
+    "signal": "cache churn",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-006",
+    "incident_id": "INC-MEM-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "checkout-api",
+    "message": "Heap usage rising",
+    "signal": "heap=92%",
+    "severity": "HIGH"
+  },
+  {
+    "alert_id": "ALT-049",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "payments-api",
+    "message": "HTTP 429 burst",
+    "signal": "transient traffic spike",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-031",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "search-api",
+    "message": "Cache miss increase",
+    "signal": "cache churn",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-004",
+    "incident_id": "INC-DB-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "orders-db",
+    "message": "Checkout transaction failures",
+    "signal": "5xx=18%",
+    "severity": "CRITICAL"
+  },
+  {
+    "alert_id": "ALT-002",
+    "incident_id": "INC-DB-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "orders-db",
+    "message": "DB pool waiters high",
+    "signal": "db.pool.waiters=41",
+    "severity": "CRITICAL"
+  },
+  {
+    "alert_id": "ALT-025",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "worker-queue",
+    "message": "Queue depth increase",
+    "signal": "temporary backlog",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-058",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "auth-service",
+    "message": "Login retry burst",
+    "signal": "credential retry noise",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-039",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "orders-ui",
+    "message": "Slow page render",
+    "signal": "client-side latency",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-038",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "auth-service",
+    "message": "Login retry burst",
+    "signal": "credential retry noise",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-059",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "worker-queue",
+    "message": "Queue depth increase",
+    "signal": "temporary backlog",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-060",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "orders-ui",
+    "message": "Slow page render",
+    "signal": "client-side latency",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-024",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "payments-api",
+    "message": "HTTP 429 burst",
+    "signal": "transient traffic spike",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-045",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "worker-queue",
+    "message": "Queue depth increase",
+    "signal": "temporary backlog",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-028",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "search-api",
+    "message": "Cache miss increase",
+    "signal": "cache churn",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-041",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "payments-api",
+    "message": "HTTP 429 burst",
+    "signal": "transient traffic spike",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-035",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "orders-ui",
+    "message": "Slow page render",
+    "signal": "client-side latency",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-036",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "search-api",
+    "message": "Cache miss increase",
+    "signal": "cache churn",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-016",
+    "incident_id": "INC-AMB-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "edge-gateway",
+    "message": "Connectivity degradation",
+    "signal": "loss=11%",
+    "severity": "HIGH"
+  },
+  {
+    "alert_id": "ALT-009",
+    "incident_id": "INC-MEM-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "checkout-api",
+    "message": "Checkout latency high",
+    "signal": "p95=2.7s",
+    "severity": "HIGH"
+  },
+  {
+    "alert_id": "ALT-017",
+    "incident_id": "INC-AMB-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "edge-gateway",
+    "message": "Gateway timeout",
+    "signal": "timeout=19%",
+    "severity": "HIGH"
+  },
+  {
+    "alert_id": "ALT-010",
+    "incident_id": "INC-MEM-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "checkout-api",
+    "message": "OOM risk warning",
+    "signal": "oom.score=0.81",
+    "severity": "CRITICAL"
+  },
+  {
+    "alert_id": "ALT-030",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "worker-queue",
+    "message": "Queue depth increase",
+    "signal": "temporary backlog",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-047",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "payments-api",
+    "message": "HTTP 429 burst",
+    "signal": "transient traffic spike",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-055",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "payments-api",
+    "message": "HTTP 429 burst",
+    "signal": "transient traffic spike",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-032",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "worker-queue",
+    "message": "Queue depth increase",
+    "signal": "temporary backlog",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-042",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "worker-queue",
+    "message": "Queue depth increase",
+    "signal": "temporary backlog",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-057",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "search-api",
+    "message": "Cache miss increase",
+    "signal": "cache churn",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-056",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "worker-queue",
+    "message": "Queue depth increase",
+    "signal": "temporary backlog",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-046",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "worker-queue",
+    "message": "Queue depth increase",
+    "signal": "temporary backlog",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-037",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "payments-api",
+    "message": "HTTP 429 burst",
+    "signal": "transient traffic spike",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-014",
+    "incident_id": "INC-NET-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "edge-gateway",
+    "message": "External API unreachable",
+    "signal": "reachability=false",
+    "severity": "CRITICAL"
+  },
+  {
+    "alert_id": "ALT-005",
+    "incident_id": "INC-DB-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "orders-db",
+    "message": "Connection acquire timeout",
+    "signal": "timeout=4.2s",
+    "severity": "CRITICAL"
+  },
+  {
+    "alert_id": "ALT-018",
+    "incident_id": "INC-AMB-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "edge-gateway",
+    "message": "Route instability",
+    "signal": "flaps=4",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-026",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "payments-api",
+    "message": "HTTP 429 burst",
+    "signal": "transient traffic spike",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-021",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "payments-api",
+    "message": "HTTP 429 burst",
+    "signal": "transient traffic spike",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-052",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "orders-ui",
+    "message": "Slow page render",
+    "signal": "client-side latency",
+    "severity": "LOW"
+  },
+  {
+    "alert_id": "ALT-003",
+    "incident_id": "INC-DB-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "orders-db",
+    "message": "Orders API latency high",
+    "signal": "p95=3.8s",
+    "severity": "HIGH"
+  },
+  {
+    "alert_id": "ALT-053",
+    "incident_id": null,
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "orders-ui",
+    "message": "Slow page render",
+    "signal": "client-side latency",
+    "severity": "MEDIUM"
+  },
+  {
+    "alert_id": "ALT-015",
+    "incident_id": "INC-NET-001",
+    "timestamp": "2026-09-18T17:16:44.611742+00:00",
+    "service": "edge-gateway",
+    "message": "Gateway health degraded",
+    "signal": "health=degraded",
+    "severity": "CRITICAL"
+  }
+]

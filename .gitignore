@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.log
+*.tmp
+*.bak
+backups/
+.ipynb_checkpoints/
+.DS_Store
